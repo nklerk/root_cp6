@@ -31,13 +31,7 @@ Using the script (root_cp6_wo-key.sh) the firmware file will be decrypted, alter
 
 1) download the NEEO firmware image
 
-2) generate a SSH key
-````
-sudo apt-get install putty-tools
-puttygen neeo.ppk -O private-openssh -o neeo.pem
-chmod 400 neeo.pem
-ssh -i neeo.pem neeo@brain-ip
-````
+2) generate a SSH key using ssh-keygen
 
 3) Change the following parameters in the root_cp6_wo-key.sh script accordingly
    FW_KEY=***********************************
