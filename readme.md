@@ -29,7 +29,7 @@ If you can't wait for the decryption key you need to desolder the mmc chip and s
 
 Using the script (root_cp6_wo-key.sh) the firmware file will be decrypted, altered and encrypted.  (USE ONLY WITH A VALID KEY !!!!)
 
-1) download the firmware image from
+1) download the NEEO firmware image
 
 2) generate a SSH key
 ````
